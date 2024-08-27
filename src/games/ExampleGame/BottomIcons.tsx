@@ -9,7 +9,7 @@ const BottomIcons: React.FC = () => {
 
   const iconLinks = [
     { src: icon1, url: 'https://x.com/degencockfights' },
-    { src: icon2, url: 'https://www.example2.com' },
+    { src: icon2, url: 'https://discord.gg/bsKQgyXKG2' },
     { src: icon3, url: 'https://t.me/degencockfight' },
   ];
 
