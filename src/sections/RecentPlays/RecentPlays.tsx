@@ -85,7 +85,7 @@ export default function RecentPlays() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '.5em' }}>
               <RecentPlay event={tx} />
             </div>
-            {/* <TimeDiff time={tx.time} suffix={md ? 'ago' : ''} /> */} Recent
+            {/* <TimeDiff time={tx.time} suffix={md ? 'ago' : ''} /> */}
           </Recent>
         ),
       )}
