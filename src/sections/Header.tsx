@@ -22,6 +22,33 @@ const Bonus = styled.button`
   }
 `
 
+const AirdropButton = styled.button`
+  all: unset;
+  cursor: pointer;
+  color: black;
+  border-radius: 2px;
+  background: #E8A63A;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:hover::after {
+    content: 'Coming Soon';
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    white-space: nowrap;
+    z-index: 1000;
+  }
+`;
+
 const StyledHeader = styled.div`
   display: flex;
   align-items: center;
@@ -100,6 +127,7 @@ export default function Header() {
               ✨ <TokenValue amount={balance.bonusBalance} />
             </Bonus>
           )}
+          <AirdropButton>AIRDROP</AirdropButton>
           <TokenSelect />
           <UserButton />
         </div>
