@@ -127,7 +127,7 @@ export default function Header() {
               ✨ <TokenValue amount={balance.bonusBalance} />
             </Bonus>
           )}
-          <AirdropButton>AIRDROP</AirdropButton>
+          <AirdropButton>BUY NOW</AirdropButton>
           <TokenSelect />
           <UserButton />
         </div>
