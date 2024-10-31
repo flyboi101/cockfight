@@ -8,7 +8,7 @@ const BottomIcons: React.FC = () => {
   const [isMobile, setIsMobile] = useState<boolean>(false);
 
   const iconLinks = [
-    { src: icon1, url: 'https://x.com/degencockfights' },
+    { src: icon1, url: 'https://x.com/degencockvsdcf' },
     { src: icon2, url: '' },
     { src: icon3, url: '' },
   ];
