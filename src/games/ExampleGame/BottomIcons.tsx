@@ -9,8 +9,8 @@ const BottomIcons: React.FC = () => {
 
   const iconLinks = [
     { src: icon1, url: 'https://x.com/degencockvsdcf' },
-    { src: icon2, url: 'https://t.me/degencockfight' },
-    { src: icon3, url: '' },
+    { src: icon2, url: '' },
+    { src: icon3, url: 'https://t.me/degencockfight' },
   ];
 
   useEffect(() => {
