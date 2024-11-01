@@ -34,7 +34,7 @@ const AirdropButton = styled.button`
   position: relative;
 
   &:hover::after {
-    content: 'Not Live';
+    content: '49TkFATSzHvXZ78J59uWMqxtKznzQ6HwjmcChXKR7fT8';
     position: absolute;
     bottom: -28px;
     left: 50%;
